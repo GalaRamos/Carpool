@@ -403,6 +403,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ITESM.Rides;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -414,6 +415,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ITESM.Rides;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -484,6 +486,7 @@
 				FAB4FC4C1C78DEE0009A5E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAB4FC4D1C78DEE0009A5E6B /* Build configuration list for PBXNativeTarget "RidesTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +495,7 @@
 				FAB4FC4F1C78DEE0009A5E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAB4FC501C78DEE0009A5E6B /* Build configuration list for PBXNativeTarget "RidesUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +504,7 @@
 				FAB4FC521C78DEE0009A5E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
