@@ -30,6 +30,12 @@
                                     <action selector="Submit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eqk-Cu-QSx"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Username" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="juH-ec-7J8">
+                                <rect key="frame" x="112" y="191" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.29807236734576098" green="0.46674248721781075" blue="0.95005202293395996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -58,25 +64,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PgC-b7-FCj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1081" y="319"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="zMv-gK-zb8">
-            <objects>
-                <navigationController storyboardIdentifier="NewViewController" automaticallyAdjustsScrollViewInsets="NO" id="ldY-b9-KRS" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="KbO-xi-ZWK">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="GXq-v1-Gsl" kind="relationship" relationship="rootViewController" id="N3U-68-kek"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="xDA-eJ-Vtv" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="549" y="319"/>
+            <point key="canvasLocation" x="537" y="311"/>
         </scene>
     </scenes>
 </document>
