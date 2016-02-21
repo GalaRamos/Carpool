@@ -226,9 +226,9 @@
                                 </items>
                             </toolbar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGD-Rg-1Fe">
-                                <rect key="frame" x="220" y="480" width="91" height="30"/>
+                                <rect key="frame" x="218" y="480" width="95" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Ask for aRide">
+                                <state key="normal" title="Ask for a Ride">
                                     <color key="titleColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                             </button>

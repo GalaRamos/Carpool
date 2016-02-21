@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MKMapViewDelegate
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -39,6 +40,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    self.mapView.delegate = self
+    
+    - (MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay
+    {
+    if ([overlay isKindOfClass:[MKPolyline class]]) {
+    MKPolyline *route = overlay;
+    MKPolylineRenderer *routeRenderer = [[MKPolylineRenderer alloc] initWithPolyline:route];
+    routeRenderer.strokeColor = [UIColor blueColor];
+    return routeRenderer;
+    }
+    else return nil;
     }
 
 
