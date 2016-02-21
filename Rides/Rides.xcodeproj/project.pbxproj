@@ -17,6 +17,9 @@
 		FAE1B4961C7946E20003CBFF /* RidesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1B4951C7946E20003CBFF /* RidesUITests.swift */; };
 		FAE1B4A41C794AA50003CBFF /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1B4A31C794AA50003CBFF /* ViewController2.swift */; };
 		FAE1B4A61C794AE20003CBFF /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1B4A51C794AE20003CBFF /* ViewController3.swift */; };
+		FAEF97C11C79BCB500C74477 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEF97C01C79BCB500C74477 /* MapKit.framework */; };
+		FAEF97C41C79C25000C74477 /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEF97C31C79C25000C74477 /* Header.m */; };
+		FAEF97C61C79CDC100C74477 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEF97C51C79CDC100C74477 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +58,10 @@
 		FAE1B4971C7946E20003CBFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAE1B4A31C794AA50003CBFF /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		FAE1B4A51C794AE20003CBFF /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
-		FAE1B4A71C79924F0003CBFF /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		FAEF97C01C79BCB500C74477 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FAEF97C21C79C24E00C74477 /* Rides-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rides-Bridging-Header.h"; sourceTree = "<group>"; };
+		FAEF97C31C79C25000C74477 /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
+		FAEF97C51C79CDC100C74477 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAEF97C11C79BCB500C74477 /* MapKit.framework in Frameworks */,
 				68BF3ADED9FF1EDF3206F0C6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +103,7 @@
 		A7A2261E2E2778033C8C12D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FAEF97C01C79BCB500C74477 /* MapKit.framework */,
 				6632E7C05E0C813A2D55EB44 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -128,13 +136,15 @@
 			children = (
 				FAE1B4751C7946E20003CBFF /* AppDelegate.swift */,
 				FAE1B4771C7946E20003CBFF /* ViewController.swift */,
+				FAEF97C51C79CDC100C74477 /* LocationManager.swift */,
 				FAE1B4791C7946E20003CBFF /* Main.storyboard */,
-				FAE1B4A71C79924F0003CBFF /* Header.h */,
+				FAEF97C31C79C25000C74477 /* Header.m */,
 				FAE1B4A31C794AA50003CBFF /* ViewController2.swift */,
 				FAE1B4A51C794AE20003CBFF /* ViewController3.swift */,
 				FAE1B47C1C7946E20003CBFF /* Assets.xcassets */,
 				FAE1B47E1C7946E20003CBFF /* LaunchScreen.storyboard */,
 				FAE1B4811C7946E20003CBFF /* Info.plist */,
+				FAEF97C21C79C24E00C74477 /* Rides-Bridging-Header.h */,
 			);
 			path = Rides;
 			sourceTree = "<group>";
@@ -228,6 +238,11 @@
 				TargetAttributes = {
 					FAE1B4711C7946E20003CBFF = {
 						CreatedOnToolsVersion = 7.2.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					FAE1B4851C7946E20003CBFF = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -341,8 +356,10 @@
 			files = (
 				FAE1B4781C7946E20003CBFF /* ViewController.swift in Sources */,
 				FAE1B4761C7946E20003CBFF /* AppDelegate.swift in Sources */,
+				FAEF97C61C79CDC100C74477 /* LocationManager.swift in Sources */,
 				FAE1B4A61C794AE20003CBFF /* ViewController3.swift in Sources */,
 				FAE1B4A41C794AA50003CBFF /* ViewController2.swift in Sources */,
+				FAEF97C41C79C25000C74477 /* Header.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,10 +500,13 @@
 			baseConfigurationReference = 48ED50901F4EDCFF7DCB3C9B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Rides/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ITESM.Rides;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rides/Rides-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -495,10 +515,12 @@
 			baseConfigurationReference = F050C5287442C22E885FF2FC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Rides/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ITESM.Rides;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rides/Rides-Bridging-Header.h";
 			};
 			name = Release;
 		};

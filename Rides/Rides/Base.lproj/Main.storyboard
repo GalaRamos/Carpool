@@ -179,9 +179,6 @@
                                     <color key="titleColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="OdX-aD-yYl">
-                                <rect key="frame" x="40" y="223" width="316" height="240"/>
-                            </mapView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mov-2V-D0a">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                 <items>
@@ -200,12 +197,18 @@
                                     <color key="titleColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="OdX-aD-yYl">
+                                <rect key="frame" x="40" y="223" width="316" height="240"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Ces-yS-sCg" id="r9U-EB-jMq"/>
+                                </connections>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
-                        <outlet property="myMap" destination="OdX-aD-yYl" id="InR-P4-036"/>
+                        <outlet property="myMap" destination="OdX-aD-yYl" id="4fJ-6p-LZh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fKe-mh-xYc" userLabel="First Responder" sceneMemberID="firstResponder"/>
