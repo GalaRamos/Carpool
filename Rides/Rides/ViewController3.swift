@@ -9,14 +9,21 @@
 import Foundation
 import UIKit
 import MapKit
+import CoreLocation
 
-class ViewController3: UIViewController {
+class ViewController3: UIViewController, CLLocationManagerDelegate {
+    let locationManager = CLLocationManager()
     
     @IBOutlet var myMap: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.locationManager.delegate = self
+        self.locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        self.locationManager.requestWhenInUseAuthorization()
+        self.locationManager.startUpdatingLocation()
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -24,6 +31,8 @@ class ViewController3: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+
+        
+    }
     
-}
 
