@@ -1,0 +1,8 @@
+Utilice CreateDomain, DeleteDomain, ListDomains, DomainMetadata para crear y gestionar dominios de consultas
+Utilice Put, Batch Put y Delete para crear y gestionar el conjunto de datos almacenada en cada dominio de consulta
+
+Recupere sus datos
+Utilice GetAttributes para recuperar un elemento específico
+Utilice Select para consultar el conjunto de datos y encontrar los elementos que cumplan determinados criterios
+
+PUT (elemento, 123), (Nombre, Bob), (Apellido, Smith), (Dirección, 123 Main St.)

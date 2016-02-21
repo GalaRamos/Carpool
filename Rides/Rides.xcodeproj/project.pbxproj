@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DF643F81C799C3500EF311D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF643F71C799C3500EF311D /* FBSDKCoreKit.framework */; settings = {ASSET_TAGS = (); }; };
+		1DF643FA1C799C4100EF311D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF643F91C799C4100EF311D /* FBSDKLoginKit.framework */; settings = {ASSET_TAGS = (); }; };
+		1DF643FC1C799C5400EF311D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF643FB1C799C5400EF311D /* FBSDKShareKit.framework */; settings = {ASSET_TAGS = (); }; };
 		68BF3ADED9FF1EDF3206F0C6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6632E7C05E0C813A2D55EB44 /* libPods.a */; };
 		FAE1B4761C7946E20003CBFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1B4751C7946E20003CBFF /* AppDelegate.swift */; };
 		FAE1B4781C7946E20003CBFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1B4771C7946E20003CBFF /* ViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DF643F71C799C3500EF311D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-20160210/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		1DF643F91C799C4100EF311D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-20160210/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		1DF643FB1C799C5400EF311D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "../../../Downloads/FacebookSDKs-iOS-20160210/FBSDKShareKit.framework"; sourceTree = "<group>"; };
 		48ED50901F4EDCFF7DCB3C9B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6632E7C05E0C813A2D55EB44 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F050C5287442C22E885FF2FC /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,7 +69,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF643FC1C799C5400EF311D /* FBSDKShareKit.framework in Frameworks */,
 				68BF3ADED9FF1EDF3206F0C6 /* libPods.a in Frameworks */,
+				1DF643F81C799C3500EF311D /* FBSDKCoreKit.framework in Frameworks */,
+				1DF643FA1C799C4100EF311D /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +105,9 @@
 		A7A2261E2E2778033C8C12D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1DF643FB1C799C5400EF311D /* FBSDKShareKit.framework */,
+				1DF643F91C799C4100EF311D /* FBSDKLoginKit.framework */,
+				1DF643F71C799C3500EF311D /* FBSDKCoreKit.framework */,
 				6632E7C05E0C813A2D55EB44 /* libPods.a */,
 			);
 			name = Frameworks;
