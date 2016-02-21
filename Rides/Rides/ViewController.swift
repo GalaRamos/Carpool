@@ -7,35 +7,19 @@
 //
 
 import UIKit
-import FBSDKCoreKit
-import FBSDKLoginKit
 
-class ViewController: UIViewController, FBSDKLoginButtonDelegate {
-    
+class ViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        if(FBSDKAccessToken.currentAccessToken()==nil){
-            print("Not logged in...")
-        } else {
-            print("Logged in...")
-        }
-        
-        let loginButton = FBSDKLoginButton()
-        loginButton.readPermissions = ["public_profile","email","user_friends"]
-        loginButton.center = self.view.center
-        
-        loginButton.delegate = self
-        
-        self.view.addSubview(loginButton)
+        // Do any additional setup after loading the view, typically from a nib.
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
-    
-    
-    
+
 }
 
