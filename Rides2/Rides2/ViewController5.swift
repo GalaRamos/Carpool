@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ViewController2: UIViewController {
+class ViewController5: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +21,9 @@ class ViewController2: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBOutlet var Pin: UITextField!
+    @IBAction func Switch(sender: UISwitch) {
+        Pin.text = "2A974M3D"
+    }
 }
 
