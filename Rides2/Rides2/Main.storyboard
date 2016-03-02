@@ -18,24 +18,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rcw-Nb-mOg">
-                                <rect key="frame" x="20" y="254" width="79" height="21"/>
+                                <rect key="frame" x="17" y="283" width="79" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sCr-uS-Org">
-                                <rect key="frame" x="20" y="366" width="285" height="30"/>
+                                <rect key="frame" x="17" y="395" width="285" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Did you forget your password?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KnI-Ar-wLn">
-                                <rect key="frame" x="91" y="631" width="233" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3f0-6D-2rY">
-                                <rect key="frame" x="138" y="432" width="67" height="30"/>
+                                <rect key="frame" x="135" y="461" width="67" height="30"/>
                                 <color key="backgroundColor" white="0.78151939655172409" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="tintColor" white="0.89154094827586206" alpha="1" colorSpace="calibratedWhite"/>
@@ -47,21 +41,21 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="bBR-I6-Qo2">
-                                <rect key="frame" x="42" y="49" width="240" height="128"/>
+                                <rect key="frame" x="39" y="78" width="240" height="128"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b8R-ex-fUr">
-                                <rect key="frame" x="20" y="288" width="285" height="30"/>
+                                <rect key="frame" x="17" y="317" width="285" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CARPOOL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQb-hb-Y3A">
-                                <rect key="frame" x="81" y="173" width="180" height="55"/>
+                                <rect key="frame" x="78" y="202" width="180" height="55"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" white="0.9609375" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rKq-Jx-bab">
-                                <rect key="frame" x="20" y="337" width="74" height="21"/>
+                                <rect key="frame" x="17" y="366" width="74" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -69,7 +63,6 @@
                         </subviews>
                         <color key="backgroundColor" red="0.66151194686674997" green="0.69704949890774026" blue="0.71605039267015713" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -179,7 +172,6 @@
         <!--View Controller5-->
         <scene sceneID="XHE-KY-3Cz">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="br4-ld-fax" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="8oP-Tc-sX9" customClass="ViewController5" customModule="Rides2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y8F-to-6AQ"/>
@@ -270,6 +262,7 @@
                         <outlet property="Pin" destination="E4q-05-6Xf" id="s3o-UY-MzZ"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="br4-ld-fax" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1050" y="612"/>
         </scene>
@@ -493,7 +486,7 @@
         <image name="logo" width="1240" height="852"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HAX-5k-2Yb"/>
-        <segue reference="foS-Ma-tOl"/>
+        <segue reference="n6P-qC-tIZ"/>
+        <segue reference="LZG-w4-Qia"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -213,7 +213,7 @@
 				TargetAttributes = {
 					FA54CD571C7A2C2C008B6460 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = N8TRC4UA2F;
+						DevelopmentTeam = 5M2254BM37;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
 								enabled = 1;
@@ -425,7 +425,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Rides2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ITESM.Rides2;
+				PRODUCT_BUNDLE_IDENTIFIER = Rides2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -439,7 +439,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Rides2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ITESM.Rides2;
+				PRODUCT_BUNDLE_IDENTIFIER = Rides2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

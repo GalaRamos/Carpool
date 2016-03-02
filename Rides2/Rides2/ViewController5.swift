@@ -23,7 +23,20 @@ class ViewController5: UIViewController {
     
     @IBOutlet var Pin: UITextField!
     @IBAction func Switch(sender: UISwitch) {
-        Pin.text = "2A974M3D"
+        var Code = "", Code2 = ""
+        var Rand = Int(arc4random_uniform(10) + 1);
+        var Rand2 = Int(arc4random_uniform(10) + 1);
+        for var x = 0; x < 4; x++ {
+            Rand = Int(arc4random_uniform(10) + 1)
+            Code += String(Rand)
+        }
+        for var x = 0; x < 3; x++ {
+            Rand2 = Int(arc4random_uniform(10) + 1)
+            Code2 += String(Rand2)
+        }
+        
+        Pin.text = Code + "CR" + Code2 + "PL"
+        
     }
 }
 
