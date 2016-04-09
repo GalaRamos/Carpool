@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+ #Es la primera pagina que aparecera. 
   root 'pages#Home'
-  
-  get 'Home' => 'pages#home'
+  #Estas nos ayudaran a agregarle a la pagina una extension al URL.
+  get 'Home' => 'pages#Home'
+
+  get 'Help' => 'pages#Help'
 
 
   # The priority is based upon order of creation: first created -> highest priority.
