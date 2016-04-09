@@ -1,3 +1,58 @@
 // Place all the styles related to the Pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$orange-red: #E53F0A;
+
+body {
+	background-color: $orange-red;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+#header {
+	height: 200px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	position: static;
+	background-color: orange;
+	top: 0;
+	left: 0;
+	h1 {
+		color: blue;
+		font-size: 50px;
+		font-family: Helvetica;
+		margin: auto;
+	}
+}
+
+nav {
+	height: 100px;
+	width: 100%;
+	position: static;
+    ul {
+    	list-style-type: none;
+    	margin:  0;
+    	padding: 14px 16px;
+    	overflow: hidden;
+    	background-color: #333;
+    	li {
+			font-size: 30px;
+			float: right;
+			padding-right: 25px;
+		}
+		li:hover {
+			color: green;
+		}
+    }
+}
+
+h1 {
+	text-align: center;
+	font-family: cursive;
+}
+
+p {
+	font-size: 20px;
+}
