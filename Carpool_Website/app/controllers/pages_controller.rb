@@ -3,4 +3,6 @@ class PagesController < ApplicationController
   end
   def Help
   end
+  def Contact
+  end
 end

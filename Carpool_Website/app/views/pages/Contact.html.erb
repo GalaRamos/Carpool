@@ -1,0 +1,36 @@
+<nav>
+	<ul>
+		<li> <a href="http://localhost:3000/Help"> Help </a></li>
+		<li> Contact </li>
+		<li> Events </li>
+		<li><a href="http://localhost:3000"> Home </a> </li>
+	</ul>
+</nav>
+<head>
+	<h1>Contact</h1>
+</head>
+<!--THis is in case that the user wants to contact us-->
+<body>
+
+ <p>Please type the date.</p>
+ <form action="http://www.example.com/bookings/" method="post" >
+  <label for="Datet">Date:</label>
+  <input type="date" name="Date" />
+
+  <h3>Please type your email and send us your questions</h3>
+  <label for="depart">Email Adress:</label>
+  <input type="email" name="depart" />
+
+  <p>What is your question about?</p>
+  <input type="radio" name="page" value="none"/>The page
+  <input type="radio" name="events" value="none"/>The events
+  <input type="radio" name="other" value="none"/>Other
+
+   <p>Comment:</p><br />
+   <textarea name='comment' id='comment'></textarea><br />
+   <input type='hidden' name='articleid' id='articleid' value='article' />
+   <input type='submit' value='Submit' />  
+ </form>
+
+</body>
+

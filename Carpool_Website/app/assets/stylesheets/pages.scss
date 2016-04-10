@@ -42,8 +42,15 @@ nav {
 			float: right;
 			padding-right: 25px;
 		}
+		a{
+			color:white;
+			text-decoration: none;
+		}
 		li:hover {
 			color: green;
+		}
+		a:hover{
+			color:green;
 		}
     }
 }
@@ -55,4 +62,13 @@ h1 {
 
 p {
 	font-size: 20px;
+}
+
+input {
+	font-family: cursive;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
 }
