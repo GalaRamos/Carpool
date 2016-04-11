@@ -6,8 +6,22 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
 </head>
 <body>
+
+<div class="header">
+	<nav>
+		<ul>
+			<li> <a href="http://localhost:3000/Help"> Help </a></li>
+			<li> <a href="http://localhost:3000/Contact"> Contact </a></li>
+			<li> <a href="http://localhost:3000/Events"> Events</a> </li>
+			<li> <a href="http://localhost:3000"> Home </a></li>
+		</ul>
+	</nav>
+	<!--This is how you declare a variable -->
+	<h1><%= @title %> </h1>
+</div>
 
 <%= yield %>
 
