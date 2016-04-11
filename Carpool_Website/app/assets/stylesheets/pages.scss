@@ -10,7 +10,7 @@ body {
 	margin: 0;
 	padding: 0;
 }
-#header {
+.header {
 	height: 200px;
 	width: 100%;
 	padding: 0;
@@ -64,8 +64,8 @@ p {
 	font-size: 20px;
 }
 
-input {
-	font-family: cursive;
+#Contact {
+	margin-left: 20px;
 }
 
 textarea {
