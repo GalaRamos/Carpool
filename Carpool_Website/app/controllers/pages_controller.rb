@@ -5,4 +5,6 @@ class PagesController < ApplicationController
   end
   def Contact
   end
+  def Events
+  end
 end
